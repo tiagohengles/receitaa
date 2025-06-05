@@ -75,7 +75,7 @@ ol, ul {
     margin-left: 20px;
 }
 
-.tempo li ::marker {
+.tempo li::marker {
     color: #7a284e;
     font-size: 12px;
 }
@@ -87,7 +87,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-.ingredientes li ::marker {
+.ingredientes li::marker {
     font-size: 12px;
     color: #854632;
 }
@@ -95,4 +95,9 @@ h2 {
 hr {
     border: 1px solid #e3ddd7;
     margin-block: 32px;
+}
+
+.modo li::marker {
+    color: #854632;
+    font-weight: 700;
 }
